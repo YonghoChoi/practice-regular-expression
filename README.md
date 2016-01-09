@@ -13,3 +13,15 @@
 * 6개의 method 사용
   * match(), replace(), search(). ,split()
   * exec(), test()
+
+## 주요 개념들
+
+* [패턴 (Pattern)]
+* [메서드 (Method)]
+* [수량자 (Quantifier)]
+* [문자 클래스 (Character Class)]
+
+[패턴 (Pattern)]: https://github.com/YonghoChoi/practice.regular_expression/blob/master/pattern/PATTERN.md
+[메서드 (Method)]: https://github.com/YonghoChoi/practice.regular_expression/blob/master/method/METHOD.md
+[수량자 (Quantifier)]: https://github.com/YonghoChoi/practice.regular_expression/blob/master/quantifier/QUANTIFIER.md
+[문자 클래스 (Character Class)]: https://github.com/YonghoChoi/practice.regular_expression/blob/master/character_class/CHARACTERCLASS.md
