@@ -1,5 +1,5 @@
-var regexp = new RegExp("sp");
-var result = regexp.test("sports");
+var regexp = new RegExp('sp');
+var result = regexp.test('sports');
 js.log(result);
 
-js.log(regexp.exec("sports"));
+js.log(regexp.exec('sports'));
