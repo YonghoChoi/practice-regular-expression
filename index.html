@@ -11,9 +11,14 @@
       <option value="method">메서드</option>
       <option value="pattern">패턴</option>
       <option value="quantifier">수량자</option>
-      <option value="character_class">문자클래스</option>
+      <option value="character_class">문자 클래스</option>
+      <option value="escape_class">이스케이프 클래스</option>
+      <option value="grouping">그룹화</option>
     </select>
-    <input type="textbox" name="filePath" id='filePath' value="">
-    <button onclick="jsExec()">실행</button>
+    <input type="textbox" name="filePath" id='filePath' value="" onkeydown="if (event.keyCode == 13)
+                        document.getElementById('btnExecute').click()">
+    <button id='btnExecute' onclick="jsExec();">실행</button>
+    <br/><br/>
+    <p>>> 결과</p>
   </body>
 </html>
